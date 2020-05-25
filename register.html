@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <title>Register Page - MyWebsite</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+  <div>
+      <div class="modal">
+        <form name="registerForm" onsubmit="return validateRegister()" action="index.html" method="POST">
+          <h2 style="text-align: center; margin-top: 12px; font-size: 24px;">Create Account</h2>
+          <div class="id01">
+              <span class="error" id="error"></span>
+              <input type="text" name="firstname" placeholder="Fisrtname">
+              <input type="text" name="lastname" placeholder="Lastname">
+              <input type="text" name="email" placeholder="Email">
+              <input type="text" name="username" placeholder="Username">
+              <input type="password" name="password" placeholder="Password">
+              <input type="password" name="cPassword" placeholder="Retype password">
+              <button type="submit" name="submit" class="">Create</button>
+          </div>
+        </form>
+      </div>
+    </div>
+</body>
+<script src="js/validate.js"></script>
+</html>

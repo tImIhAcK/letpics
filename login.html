@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login Page - MyWebsite</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+    <div class="modal">
+      <form name="loginForm" action="index.html" onsubmit="return validateLogin()"  method="GET">
+        <div class="avatar-container">
+          <img src="image/img_avatar2.png" class="avatar-img">
+        </div>
+        <h2 style="text-align: center; margin-top: 12px; font-size: 24px;">Member Login</h2>
+        <div class="id01">
+            <span class="error" id="error"></span>
+            <input type="text" name="username" placeholder="Username">
+            <input type="password" name="password" placeholder="Password">
+            <button type="submit" name="submitBtn">Login</button>
+        </div>
+        <div class="id01" style="background-color: darkgreen; color: #fff;">
+            <span>Create <a href="#">account</a></span>
+            <span class="psw">Forget <a href="#">password?</a></span>
+        </div>
+      </form>
+    </div>
+</body>
+<script src="js/validate.js"></script>
+</html>

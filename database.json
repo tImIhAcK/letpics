@@ -1,0 +1,23 @@
+[
+    {
+        "firstname":"Adeniran",
+        "lastname":"John",
+        "email":"adeniranjohn2016@gmail.com",
+        "username":"admin",
+        "password":"admin"
+    },
+    {
+        "firstname":"Adelegan",
+        "lastname":"Bisola",
+        "email":"adeleganbisola@gmail.com",
+        "username":"bisola",
+        "password":"123456"
+    },
+    {
+        "firstname":"Adisa",
+        "lastname":"Babatunde",
+        "email":"adisatunde@gmail.com",
+        "username":"tunde",
+        "password":"234567"
+    }
+]

@@ -1,0 +1,183 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+/*MY STYLING*/
+body{
+    padding: 0;
+    margin: 0;
+    background: #808080;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+.id01{
+   padding: 16px;
+}
+
+.avatar-container{
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+.avatar-img{
+    width: 40%;
+    border-radius: 50%;
+}
+
+/*assign full width inputs*/
+input[type=text],
+input[type=password] {
+    color: darkgreen;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #e83e8c;
+    box-sizing: border-box;
+}
+
+/*Set hover effect for the input*/
+input[type=text]:hover,
+input[type=password]:hover {
+    border-radius: 5px; 
+}
+
+/*Set styling for button*/
+button{
+    background-color: #e83e8c;
+    color: #FFF;
+    font-size: 18px;
+    margin: 8px 0;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/*Set hover effect for the button*/
+button:hover{
+    opacity: .8;
+}
+
+/*set the forget password text*/
+.psw{
+    float: right;
+}
+
+.error{
+    display: none;
+}
+
+.error_show{
+    background-color: red;
+    color: #fff;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    text-align: center;
+    border: none;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+/*style for the modal content box*/
+.modal{
+    background-color: #fefefe;
+    margin: 5% auto 0 auto;
+    border: 1px solid #888;
+    width: 400px;
+}
+
+@media screen and (max-width: 200px){
+    .id01{
+        width: 100%;
+        text-align: center;
+    }
+
+    .psw{
+        display: block;
+        float: none
+    }
+
+    .avatar-img{
+        width: 30%;
+        border-radius: 50%;
+    }
+}
